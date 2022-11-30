@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+  }
+  .container {
+    width: 550px;
+    margin: 20px auto;
+  }
+  .form {
+    background-color: rgb(153, 204, 189);
+    border-radius: 6px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .one ,.two{
+      color:  #0e1a47;
+      font-weight: bold;
+      font-size: 15px;
+  }
+
+.input ,.input2 {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    flex: 1;
+  }
+  .input:focus ,.input2:focus {
+    outline: none;
+  }
+  .add {
+    border: none;
+    background-color: #0e1a47;
+    color: white;
+    padding: 7px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    ;
+  }
+
+  
+
+
+
+
+.users ,.deletall {
+    background-color:  rgb(153, 204, 189);
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+  }
+  .users .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+
+
+
+
+
+.users .task:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.users .task:hover{
+    background-color: rgb(107, 152, 192);
+}
+
+.users .task.done{
+    opacity: 0.5;
+    background-color: #cf2e43;
+}
+.users .task span  {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: rgb(114, 35, 35);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.deletall {
+    color: #0e1a47;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.deletall :hover{
+    color:red
+}
